@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+nav{
+    color: white;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px, 400px));
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+#movie-posters{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+    column-gap: 10px;
+    row-gap: 10px;
+}
